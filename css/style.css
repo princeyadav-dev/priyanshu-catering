@@ -503,3 +503,23 @@ footer .footer-bottom {
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 
+/* ===== Footer Email Button ===== */
+.footer-contact .email-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, #d16ba5, #f67280);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(214, 107, 165, 0.35);
+}
+
+.footer-contact .email-btn:hover {
+    background: linear-gradient(135deg, #f67280, #d16ba5);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(214, 107, 165, 0.45);
+}
